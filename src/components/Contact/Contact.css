@@ -1,0 +1,41 @@
+.card {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    color: blue;
+}
+
+.contact {
+    padding-bottom: 20rem;
+    margin-top: 30rem;
+}
+
+#contact h2 {
+    opacity: 0;
+    transition: 2s;
+}
+
+#contact .row .card {
+    opacity: 0;
+    transition: 2s;
+    transform: translate(0, -20px);
+}
+
+#contact h2.muncul,
+#contact .row .card.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@media only screen and (max-width: 900px) {
+    #contact .row .card {
+        opacity: 0;
+        transition: 2s;
+        transform: translate(0, 0);
+    }
+    }

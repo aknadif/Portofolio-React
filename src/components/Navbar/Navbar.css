@@ -1,0 +1,12 @@
+/* Navbar */
+.navbar{
+    background-color: #A8DADC;
+    color: #212529;
+  }
+
+
+/* Menu Links */
+nav a.nav-link {
+    letter-spacing: 0.6px;
+    cursor: pointer;
+  }

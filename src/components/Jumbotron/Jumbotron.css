@@ -1,0 +1,8 @@
+/* Jumbotron */
+.jumbotron {
+  padding-top: 15rem;
+  margin-bottom: 5rem;
+}
+.jumbotron img {
+  width: 200px;
+}
